@@ -1,4 +1,30 @@
+Since in the short term we just wanted to get the XML Spectacle data
+out of the Microsoft Access XML, we went with REXML SAX2 xml stream
+parser due to it's inclusion in ruby 1.8+. However nokogiri and libxml
+(c-based) backed xml libraries could be faster if we find ourselves
+doing it very often or with large data sets.
+
+Would be interesting to try and create an active record and/or the
+active migration based on the XML Schema document, creating a parser
+that would load the resulting database. Ahhh.... but no time for
+elegance at the moment.
+
 Helped with setting up activerecord without rails:
 
  * http://blog.aizatto.com/2007/05/21/activerecord-without-rails/
  * http://blog.aizatto.com/2007/05/27/activerecord-migrations-without-rails/
+ * http://weblog.jamisbuck.org/2005/9/27/getting-started-with-activerecord-migrations
+ * http://apidock.com/rails/ActiveRecord/ConnectionAdapters/SchemaStatements/create_table
+
+Lib-XML:
+
+ * https://github.com/tmm1/libxml-ruby
+ * http://www.iteray.com/archives/133
+ * http://codeidol.com/other/rubyckbk/XML-and-HTML/Validating-an-XML-Document/
+
+ActiveRecord.to_xml:
+
+ * http://stackoverflow.com/questions/2123922/is-there-a-drop-in-replacement-for-activerecord-to-xml-thats-faster
+ * https://github.com/rti/FastXml
+ * http://www.iprog.com/posting/2009/11/faster-alternatives-activerecord-to_xml-rails-ruby
+
