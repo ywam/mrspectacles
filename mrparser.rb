@@ -9,7 +9,7 @@ ActiveRecord::Base.establish_connection(dbconfig)
 class Spectacle < ActiveRecord::Base
 end
 
-parser = REXML::Parsers::SAX2Parser.new( File.new( 'RPT_Loc.xml' ) )
+parser = REXML::Parsers::SAX2Parser.new( File.new( 'RPT_Spec1.xml' ) )
 parser.listen( :start_element, %w(QR_Spec) )  { @spec = Spectacle.new   }
 parser.listen( :characters, %w(ID)  )    {|text| @spec.sid    = text }
 parser.listen( :characters, %w(FK_Pat))  {|text| @spec.fk_pat = text }
