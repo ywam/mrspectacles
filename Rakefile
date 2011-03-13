@@ -1,7 +1,7 @@
 require 'active_record'
 require 'yaml'
 require 'logger'
-require 'spectacle'
+
 
 task :default => :migrate
 
@@ -12,6 +12,7 @@ end
 
 desc "Populate the database with an xml file"
 task :populate => :environment do
+  require 'spectacle'
   Spectacle.populate_from_xml('RPT_Spec1.xml')
 end
 
