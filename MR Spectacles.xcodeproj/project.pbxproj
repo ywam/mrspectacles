@@ -39,20 +39,20 @@
 		8C93213C132F5020000A71CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C93213E132F5020000A71CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8C932140132F5020000A71CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8C932144132F5020000A71CB /* MR Spectacles-Info.plist */ = {isa = PBXFileReference; path = "MR Spectacles-Info.plist"; sourceTree = "<group>"; };
+		8C932144132F5020000A71CB /* MR Spectacles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MR Spectacles-Info.plist"; sourceTree = "<group>"; };
 		8C932146132F5020000A71CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8C932148132F5020000A71CB /* MR Spectacles-Prefix.pch */ = {isa = PBXFileReference; path = "MR Spectacles-Prefix.pch"; sourceTree = "<group>"; };
+		8C932148132F5020000A71CB /* MR Spectacles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MR Spectacles-Prefix.pch"; sourceTree = "<group>"; };
 		8C932149132F5020000A71CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8C93214B132F5020000A71CB /* MR_SpectaclesAppDelegate.h */ = {isa = PBXFileReference; path = MR_SpectaclesAppDelegate.h; sourceTree = "<group>"; };
+		8C93214B132F5020000A71CB /* MR_SpectaclesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MR_SpectaclesAppDelegate.h; sourceTree = "<group>"; };
 		8C93214C132F5020000A71CB /* MR_SpectaclesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MR_SpectaclesAppDelegate.m; sourceTree = "<group>"; };
 		8C93214F132F5020000A71CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		8C932151132F5020000A71CB /* MR_SpectaclesViewController.h */ = {isa = PBXFileReference; path = MR_SpectaclesViewController.h; sourceTree = "<group>"; };
+		8C932151132F5020000A71CB /* MR_SpectaclesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MR_SpectaclesViewController.h; sourceTree = "<group>"; };
 		8C932152132F5020000A71CB /* MR_SpectaclesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MR_SpectaclesViewController.m; sourceTree = "<group>"; };
 		8C932155132F5020000A71CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MR_SpectaclesViewController.xib; sourceTree = "<group>"; };
 		8C93215C132F5020000A71CB /* MR SpectaclesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MR SpectaclesTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C932164132F5020000A71CB /* MR SpectaclesTests-Info.plist */ = {isa = PBXFileReference; path = "MR SpectaclesTests-Info.plist"; sourceTree = "<group>"; };
+		8C932164132F5020000A71CB /* MR SpectaclesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MR SpectaclesTests-Info.plist"; sourceTree = "<group>"; };
 		8C932166132F5020000A71CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8C932168132F5020000A71CB /* MR SpectaclesTests-Prefix.pch */ = {isa = PBXFileReference; path = "MR SpectaclesTests-Prefix.pch"; sourceTree = "<group>"; };
+		8C932168132F5020000A71CB /* MR SpectaclesTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MR SpectaclesTests-Prefix.pch"; sourceTree = "<group>"; };
 		8C932169132F5020000A71CB /* MR_SpectaclesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MR_SpectaclesTests.h; sourceTree = "<group>"; };
 		8C93216B132F5020000A71CB /* MR_SpectaclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MR_SpectaclesTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
