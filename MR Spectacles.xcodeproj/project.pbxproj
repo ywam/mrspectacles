@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C93213D132F5020000A71CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C93213C132F5020000A71CB /* UIKit.framework */; };
+		8C93213F132F5020000A71CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C93213E132F5020000A71CB /* Foundation.framework */; };
+		8C932141132F5020000A71CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C932140132F5020000A71CB /* CoreGraphics.framework */; };
+		8C932147132F5020000A71CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C932145132F5020000A71CB /* InfoPlist.strings */; };
+		8C93214A132F5020000A71CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C932149132F5020000A71CB /* main.m */; };
+		8C93214D132F5020000A71CB /* MR_SpectaclesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C93214C132F5020000A71CB /* MR_SpectaclesAppDelegate.m */; };
+		8C932150132F5020000A71CB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C93214E132F5020000A71CB /* MainWindow.xib */; };
+		8C932153132F5020000A71CB /* MR_SpectaclesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C932152132F5020000A71CB /* MR_SpectaclesViewController.m */; };
+		8C932156132F5020000A71CB /* MR_SpectaclesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C932154132F5020000A71CB /* MR_SpectaclesViewController.xib */; };
+		8C93215D132F5020000A71CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C93213C132F5020000A71CB /* UIKit.framework */; };
+		8C93215E132F5020000A71CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C93213E132F5020000A71CB /* Foundation.framework */; };
+		8C93215F132F5020000A71CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C932140132F5020000A71CB /* CoreGraphics.framework */; };
+		8C932167132F5020000A71CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C932165132F5020000A71CB /* InfoPlist.strings */; };
+		8C93216A132F5020000A71CB /* MR_SpectaclesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8C932169132F5020000A71CB /* MR_SpectaclesTests.h */; };
+		8C93216C132F5020000A71CB /* MR_SpectaclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C93216B132F5020000A71CB /* MR_SpectaclesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C932160132F5020000A71CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C93212F132F5020000A71CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C932137132F5020000A71CB;
+			remoteInfo = "MR Spectacles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C932138132F5020000A71CB /* MR Spectacles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MR Spectacles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C93213C132F5020000A71CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C93213E132F5020000A71CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C932140132F5020000A71CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C932144132F5020000A71CB /* MR Spectacles-Info.plist */ = {isa = PBXFileReference; path = "MR Spectacles-Info.plist"; sourceTree = "<group>"; };
+		8C932146132F5020000A71CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C932148132F5020000A71CB /* MR Spectacles-Prefix.pch */ = {isa = PBXFileReference; path = "MR Spectacles-Prefix.pch"; sourceTree = "<group>"; };
+		8C932149132F5020000A71CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C93214B132F5020000A71CB /* MR_SpectaclesAppDelegate.h */ = {isa = PBXFileReference; path = MR_SpectaclesAppDelegate.h; sourceTree = "<group>"; };
+		8C93214C132F5020000A71CB /* MR_SpectaclesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MR_SpectaclesAppDelegate.m; sourceTree = "<group>"; };
+		8C93214F132F5020000A71CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8C932151132F5020000A71CB /* MR_SpectaclesViewController.h */ = {isa = PBXFileReference; path = MR_SpectaclesViewController.h; sourceTree = "<group>"; };
+		8C932152132F5020000A71CB /* MR_SpectaclesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MR_SpectaclesViewController.m; sourceTree = "<group>"; };
+		8C932155132F5020000A71CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MR_SpectaclesViewController.xib; sourceTree = "<group>"; };
+		8C93215C132F5020000A71CB /* MR SpectaclesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MR SpectaclesTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C932164132F5020000A71CB /* MR SpectaclesTests-Info.plist */ = {isa = PBXFileReference; path = "MR SpectaclesTests-Info.plist"; sourceTree = "<group>"; };
+		8C932166132F5020000A71CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C932168132F5020000A71CB /* MR SpectaclesTests-Prefix.pch */ = {isa = PBXFileReference; path = "MR SpectaclesTests-Prefix.pch"; sourceTree = "<group>"; };
+		8C932169132F5020000A71CB /* MR_SpectaclesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MR_SpectaclesTests.h; sourceTree = "<group>"; };
+		8C93216B132F5020000A71CB /* MR_SpectaclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MR_SpectaclesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C932135132F5020000A71CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C93213D132F5020000A71CB /* UIKit.framework in Frameworks */,
+				8C93213F132F5020000A71CB /* Foundation.framework in Frameworks */,
+				8C932141132F5020000A71CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C932158132F5020000A71CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C93215D132F5020000A71CB /* UIKit.framework in Frameworks */,
+				8C93215E132F5020000A71CB /* Foundation.framework in Frameworks */,
+				8C93215F132F5020000A71CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C93212D132F5020000A71CB = {
+			isa = PBXGroup;
+			children = (
+				8C932142132F5020000A71CB /* MR Spectacles */,
+				8C932162132F5020000A71CB /* MR SpectaclesTests */,
+				8C93213B132F5020000A71CB /* Frameworks */,
+				8C932139132F5020000A71CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C932139132F5020000A71CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C932138132F5020000A71CB /* MR Spectacles.app */,
+				8C93215C132F5020000A71CB /* MR SpectaclesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C93213B132F5020000A71CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C93213C132F5020000A71CB /* UIKit.framework */,
+				8C93213E132F5020000A71CB /* Foundation.framework */,
+				8C932140132F5020000A71CB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C932142132F5020000A71CB /* MR Spectacles */ = {
+			isa = PBXGroup;
+			children = (
+				8C93214B132F5020000A71CB /* MR_SpectaclesAppDelegate.h */,
+				8C93214C132F5020000A71CB /* MR_SpectaclesAppDelegate.m */,
+				8C93214E132F5020000A71CB /* MainWindow.xib */,
+				8C932151132F5020000A71CB /* MR_SpectaclesViewController.h */,
+				8C932152132F5020000A71CB /* MR_SpectaclesViewController.m */,
+				8C932154132F5020000A71CB /* MR_SpectaclesViewController.xib */,
+				8C932143132F5020000A71CB /* Supporting Files */,
+			);
+			path = "MR Spectacles";
+			sourceTree = "<group>";
+		};
+		8C932143132F5020000A71CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C932144132F5020000A71CB /* MR Spectacles-Info.plist */,
+				8C932145132F5020000A71CB /* InfoPlist.strings */,
+				8C932148132F5020000A71CB /* MR Spectacles-Prefix.pch */,
+				8C932149132F5020000A71CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C932162132F5020000A71CB /* MR SpectaclesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C932169132F5020000A71CB /* MR_SpectaclesTests.h */,
+				8C93216B132F5020000A71CB /* MR_SpectaclesTests.m */,
+				8C932163132F5020000A71CB /* Supporting Files */,
+			);
+			path = "MR SpectaclesTests";
+			sourceTree = "<group>";
+		};
+		8C932163132F5020000A71CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C932164132F5020000A71CB /* MR SpectaclesTests-Info.plist */,
+				8C932165132F5020000A71CB /* InfoPlist.strings */,
+				8C932168132F5020000A71CB /* MR SpectaclesTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C932137132F5020000A71CB /* MR Spectacles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C93216F132F5020000A71CB /* Build configuration list for PBXNativeTarget "MR Spectacles" */;
+			buildPhases = (
+				8C932134132F5020000A71CB /* Sources */,
+				8C932135132F5020000A71CB /* Frameworks */,
+				8C932136132F5020000A71CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MR Spectacles";
+			productName = "MR Spectacles";
+			productReference = 8C932138132F5020000A71CB /* MR Spectacles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C93215B132F5020000A71CB /* MR SpectaclesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C932172132F5020000A71CB /* Build configuration list for PBXNativeTarget "MR SpectaclesTests" */;
+			buildPhases = (
+				8C932157132F5020000A71CB /* Sources */,
+				8C932158132F5020000A71CB /* Frameworks */,
+				8C932159132F5020000A71CB /* Resources */,
+				8C93215A132F5020000A71CB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C932161132F5020000A71CB /* PBXTargetDependency */,
+			);
+			name = "MR SpectaclesTests";
+			productName = "MR SpectaclesTests";
+			productReference = 8C93215C132F5020000A71CB /* MR SpectaclesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C93212F132F5020000A71CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "CodeCafe, LLC";
+			};
+			buildConfigurationList = 8C932132132F5020000A71CB /* Build configuration list for PBXProject "MR Spectacles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C93212D132F5020000A71CB;
+			productRefGroup = 8C932139132F5020000A71CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C932137132F5020000A71CB /* MR Spectacles */,
+				8C93215B132F5020000A71CB /* MR SpectaclesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C932136132F5020000A71CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C932147132F5020000A71CB /* InfoPlist.strings in Resources */,
+				8C932150132F5020000A71CB /* MainWindow.xib in Resources */,
+				8C932156132F5020000A71CB /* MR_SpectaclesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C932159132F5020000A71CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C932167132F5020000A71CB /* InfoPlist.strings in Resources */,
+				8C93216A132F5020000A71CB /* MR_SpectaclesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C93215A132F5020000A71CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C932134132F5020000A71CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C93214A132F5020000A71CB /* main.m in Sources */,
+				8C93214D132F5020000A71CB /* MR_SpectaclesAppDelegate.m in Sources */,
+				8C932153132F5020000A71CB /* MR_SpectaclesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C932157132F5020000A71CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C93216C132F5020000A71CB /* MR_SpectaclesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C932161132F5020000A71CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C932137132F5020000A71CB /* MR Spectacles */;
+			targetProxy = 8C932160132F5020000A71CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C932145132F5020000A71CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C932146132F5020000A71CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C93214E132F5020000A71CB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C93214F132F5020000A71CB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8C932154132F5020000A71CB /* MR_SpectaclesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C932155132F5020000A71CB /* en */,
+			);
+			name = MR_SpectaclesViewController.xib;
+			sourceTree = "<group>";
+		};
+		8C932165132F5020000A71CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C932166132F5020000A71CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C93216D132F5020000A71CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8C93216E132F5020000A71CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8C932170132F5020000A71CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MR Spectacles/MR Spectacles-Prefix.pch";
+				INFOPLIST_FILE = "MR Spectacles/MR Spectacles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C932171132F5020000A71CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MR Spectacles/MR Spectacles-Prefix.pch";
+				INFOPLIST_FILE = "MR Spectacles/MR Spectacles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8C932173132F5020000A71CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MR Spectacles.app/MR Spectacles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MR SpectaclesTests/MR SpectaclesTests-Prefix.pch";
+				INFOPLIST_FILE = "MR SpectaclesTests/MR SpectaclesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8C932174132F5020000A71CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MR Spectacles.app/MR Spectacles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MR SpectaclesTests/MR SpectaclesTests-Prefix.pch";
+				INFOPLIST_FILE = "MR SpectaclesTests/MR SpectaclesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C932132132F5020000A71CB /* Build configuration list for PBXProject "MR Spectacles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C93216D132F5020000A71CB /* Debug */,
+				8C93216E132F5020000A71CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C93216F132F5020000A71CB /* Build configuration list for PBXNativeTarget "MR Spectacles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C932170132F5020000A71CB /* Debug */,
+				8C932171132F5020000A71CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C932172132F5020000A71CB /* Build configuration list for PBXNativeTarget "MR SpectaclesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C932173132F5020000A71CB /* Debug */,
+				8C932174132F5020000A71CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C93212F132F5020000A71CB /* Project object */;
+}

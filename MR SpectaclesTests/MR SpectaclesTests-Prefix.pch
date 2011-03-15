@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MR SpectaclesTests' target in the 'MR SpectaclesTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
