@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C29224A132F6898003224A0 /* SpectacleModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C292248132F6898003224A0 /* SpectacleModel.xcdatamodeld */; };
 		8C93213D132F5020000A71CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C93213C132F5020000A71CB /* UIKit.framework */; };
 		8C93213F132F5020000A71CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C93213E132F5020000A71CB /* Foundation.framework */; };
 		8C932141132F5020000A71CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C932140132F5020000A71CB /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 		8C932167132F5020000A71CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C932165132F5020000A71CB /* InfoPlist.strings */; };
 		8C93216A132F5020000A71CB /* MR_SpectaclesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8C932169132F5020000A71CB /* MR_SpectaclesTests.h */; };
 		8C93216C132F5020000A71CB /* MR_SpectaclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C93216B132F5020000A71CB /* MR_SpectaclesTests.m */; };
+		8C932181132F5799000A71CB /* Spectacle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C932180132F5799000A71CB /* Spectacle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C292249132F6898003224A0 /* SpectacleModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpectacleModel.xcdatamodel; sourceTree = "<group>"; };
 		8C932138132F5020000A71CB /* MR Spectacles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MR Spectacles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C93213C132F5020000A71CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C93213E132F5020000A71CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,6 +58,8 @@
 		8C932168132F5020000A71CB /* MR SpectaclesTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MR SpectaclesTests-Prefix.pch"; sourceTree = "<group>"; };
 		8C932169132F5020000A71CB /* MR_SpectaclesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MR_SpectaclesTests.h; sourceTree = "<group>"; };
 		8C93216B132F5020000A71CB /* MR_SpectaclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MR_SpectaclesTests.m; sourceTree = "<group>"; };
+		8C93217F132F5799000A71CB /* Spectacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spectacle.h; sourceTree = "<group>"; };
+		8C932180132F5799000A71CB /* Spectacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spectacle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +118,15 @@
 		8C932142132F5020000A71CB /* MR Spectacles */ = {
 			isa = PBXGroup;
 			children = (
+				8C93217F132F5799000A71CB /* Spectacle.h */,
+				8C932180132F5799000A71CB /* Spectacle.m */,
 				8C93214B132F5020000A71CB /* MR_SpectaclesAppDelegate.h */,
 				8C93214C132F5020000A71CB /* MR_SpectaclesAppDelegate.m */,
 				8C93214E132F5020000A71CB /* MainWindow.xib */,
 				8C932151132F5020000A71CB /* MR_SpectaclesViewController.h */,
 				8C932152132F5020000A71CB /* MR_SpectaclesViewController.m */,
 				8C932154132F5020000A71CB /* MR_SpectaclesViewController.xib */,
+				8C292248132F6898003224A0 /* SpectacleModel.xcdatamodeld */,
 				8C932143132F5020000A71CB /* Supporting Files */,
 			);
 			path = "MR Spectacles";
@@ -266,6 +274,8 @@
 				8C93214A132F5020000A71CB /* main.m in Sources */,
 				8C93214D132F5020000A71CB /* MR_SpectaclesAppDelegate.m in Sources */,
 				8C932153132F5020000A71CB /* MR_SpectaclesViewController.m in Sources */,
+				8C932181132F5799000A71CB /* Spectacle.m in Sources */,
+				8C29224A132F6898003224A0 /* SpectacleModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +460,7 @@
 				8C932171132F5020000A71CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C932172132F5020000A71CB /* Build configuration list for PBXNativeTarget "MR SpectaclesTests" */ = {
 			isa = XCConfigurationList;
@@ -458,8 +469,22 @@
 				8C932174132F5020000A71CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C292248132F6898003224A0 /* SpectacleModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C292249132F6898003224A0 /* SpectacleModel.xcdatamodel */,
+			);
+			currentVersion = 8C292249132F6898003224A0 /* SpectacleModel.xcdatamodel */;
+			path = SpectacleModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8C93212F132F5020000A71CB /* Project object */;
 }
