@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0122451337F1CC004BA9DB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0122441337F1CC004BA9DB /* CoreData.framework */; };
 		8C29224A132F6898003224A0 /* SpectacleModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C292248132F6898003224A0 /* SpectacleModel.xcdatamodeld */; };
 		8C93213D132F5020000A71CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C93213C132F5020000A71CB /* UIKit.framework */; };
 		8C93213F132F5020000A71CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C93213E132F5020000A71CB /* Foundation.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C0122441337F1CC004BA9DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = ../../../System/Library/Frameworks/CoreData.framework; sourceTree = "<group>"; };
 		8C292249132F6898003224A0 /* SpectacleModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpectacleModel.xcdatamodel; sourceTree = "<group>"; };
 		8C932138132F5020000A71CB /* MR Spectacles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MR Spectacles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C93213C132F5020000A71CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -70,6 +72,7 @@
 				8C93213D132F5020000A71CB /* UIKit.framework in Frameworks */,
 				8C93213F132F5020000A71CB /* Foundation.framework in Frameworks */,
 				8C932141132F5020000A71CB /* CoreGraphics.framework in Frameworks */,
+				8C0122451337F1CC004BA9DB /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +111,7 @@
 		8C93213B132F5020000A71CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8C0122441337F1CC004BA9DB /* CoreData.framework */,
 				8C93213C132F5020000A71CB /* UIKit.framework */,
 				8C93213E132F5020000A71CB /* Foundation.framework */,
 				8C932140132F5020000A71CB /* CoreGraphics.framework */,
