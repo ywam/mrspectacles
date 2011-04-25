@@ -1,0 +1,42 @@
+Floats:
+SphR,SphL: Sphere (range and focus)
+step 0.25, -20 -> +20 (-3 -> +5)
+CylR,CylL: Cylinder (distortion correction of sphere)
+step 0.25, -20 -> +20 (-2 -> +2)
+AxisR,AxisL: Axis (direction of distortion)
+step 1, 0 -> 180 (all over)
+Eyesize: How far the eyes are apart
+Bridge: How far above the nose the center of  the glasses are?
+Add: Additional Magnification (a bifocal if this is > 0)
+
+Integers:
+ID: Tracking number for individual spectacle in MS Access
+Bin: Tracking number for the container the spectacle is stored in
+
+Strings:
+Tint: Sunglasses or not, white means clear (white)
+BF: Normal glass, Bifocal, Progressive +0 -> :Add (PRG, PROG)
+Comments: Childs, etc
+Frame: Currently used for style, possible women?
+
+Calculatable:
+LE,RE: Mean Sphere [cylX+.5(sphX)] sometimes abbr as MS
+QR_Spec.GC: Geometric Center [Eyesize + Bridge]
+
+Unknown:
+OC:
+NC: Used once
+
+
+=====
+Search Terms:
+s.VAR,s.Val: (left and right) = Visual Acuity 
+
+QF_SpecMatch3 -sort via SQL
+SpecSearch2 first
+SpecRanking2
+SpecMatch2
+   rv = Abs(sSRd + sCRd / 2) + Abs(sCRd)
+   lv = Abs(sSLd + sCLd / 2) + Abs(sCLd)
+SpecRanking2
+   (rv * 100 * s.VAR) + (lv * 100 * s.Val)
