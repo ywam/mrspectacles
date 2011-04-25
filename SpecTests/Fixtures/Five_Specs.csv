@@ -1,0 +1,6 @@
+ID,FK_Pat,Bin,Lens,Tint,SphR,CylR,AxisR,SphL,CylL,AxisL,OC,Frame,Eyesize,Bridge,Comments,GC,BF,Add,NC
+2174,,1118,,white,1.25,0,0,1.5,0.25,173,,WP,,,,,PRG,2,56
+2176,,2,,white,3,0,0,3.25,0.25,171,,,,,,,,,
+2177,,3,,white,2,0.5,95,2.5,0.25,90,,,,,,,,,
+2178,,4,,white,1.25,0,0,1,0,0,,,,,,,,,
+2179,,5,,white,2,0.5,43,1,0.75,119,,,,,,,,,

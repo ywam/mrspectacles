@@ -1,0 +1,116 @@
+// !$*UTF8*$!
+{
+	8C0122481337F286004BA9DB /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8C6D1A991337F63900429BD4 /* Spectacles */;
+		activeTarget = 8C0122501337F286004BA9DB /* Spectacles */;
+		codeSenseManager = 8C6D1AAC1337F65900429BD4 /* Code sense */;
+		executables = (
+			8C6D1A991337F63900429BD4 /* Spectacles */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					667,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322434617;
+			PBXWorkspaceStateSaveDate = 322434617;
+		};
+		perUserProjectItems = {
+			8C6D1AA41337F65900429BD4 /* PBXBookmark */ = 8C6D1AA41337F65900429BD4 /* PBXBookmark */;
+			8C6D1AAD1337F65900429BD4 /* PBXTextBookmark */ = 8C6D1AAD1337F65900429BD4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8C6D1AAB1337F65900429BD4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8C0122501337F286004BA9DB /* Spectacles */ = {
+		activeExec = 0;
+		executables = (
+			8C6D1A991337F63900429BD4 /* Spectacles */,
+		);
+	};
+	8C0122661337F286004BA9DB /* SpectaclesAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {845, 455}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 855}";
+		};
+	};
+	8C01227C1337F287004BA9DB /* SpectaclesTests */ = {
+		activeExec = 0;
+	};
+	8C6D1A991337F63900429BD4 /* Spectacles */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Spectacles;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8C6D1AA41337F65900429BD4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8C0122661337F286004BA9DB /* SpectaclesAppDelegate.h */;
+	};
+	8C6D1AAB1337F65900429BD4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8C6D1AAC1337F65900429BD4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8C6D1AAD1337F65900429BD4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8C0122661337F286004BA9DB /* SpectaclesAppDelegate.h */;
+		name = "SpectaclesAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 855;
+		vrLoc = 0;
+	};
+}

@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C01004C133A9E4F005BAF3C /* Spectacle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C01004B133A9E4E005BAF3C /* Spectacle.m */; };
+		8C0122561337F286004BA9DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0122551337F286004BA9DB /* UIKit.framework */; };
+		8C0122581337F286004BA9DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0122571337F286004BA9DB /* Foundation.framework */; };
+		8C01225A1337F286004BA9DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0122591337F286004BA9DB /* CoreGraphics.framework */; };
+		8C01225C1337F286004BA9DB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C01225B1337F286004BA9DB /* CoreData.framework */; };
+		8C0122621337F286004BA9DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C0122601337F286004BA9DB /* InfoPlist.strings */; };
+		8C0122651337F286004BA9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0122641337F286004BA9DB /* main.m */; };
+		8C0122681337F286004BA9DB /* SpectaclesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0122671337F286004BA9DB /* SpectaclesAppDelegate.m */; };
+		8C01226E1337F287004BA9DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C01226C1337F287004BA9DB /* MainWindow.xib */; };
+		8C0122711337F287004BA9DB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0122701337F287004BA9DB /* DetailViewController.m */; };
+		8C0122741337F287004BA9DB /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C0122721337F287004BA9DB /* DetailView.xib */; };
+		8C0122771337F287004BA9DB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0122761337F287004BA9DB /* RootViewController.m */; };
+		8C03EC591339F3F700EA49B1 /* Spectacles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C03EC571339F3F700EA49B1 /* Spectacles.xcdatamodeld */; };
+		8C2A334E133C41A900459D43 /* Some_Specs.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A334C133C3E4500459D43 /* Some_Specs.csv */; };
+		8C78C1BF133BFB6600D5C65E /* All_Specs.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8C59A0BF133AAF4000BABB66 /* All_Specs.csv */; };
+		8C78C1CD133C094A00D5C65E /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C78C1C9133C094A00D5C65E /* CSVParser.m */; };
+		8C78C1CE133C094A00D5C65E /* NSManagedObjectContext+FetchAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C78C1CA133C094A00D5C65E /* NSManagedObjectContext+FetchAdditions.m */; };
+		8C78C1CF133C096900D5C65E /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C78C1C9133C094A00D5C65E /* CSVParser.m */; };
+		8C78C1D0133C096D00D5C65E /* NSManagedObjectContext+FetchAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C78C1CA133C094A00D5C65E /* NSManagedObjectContext+FetchAdditions.m */; };
+		8C78C1D3133C0A0A00D5C65E /* EntryReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C78C1D1133C0A0900D5C65E /* EntryReceiver.m */; };
+		8C78C1D4133C0A0A00D5C65E /* EntryReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C78C1D1133C0A0900D5C65E /* EntryReceiver.m */; };
+		8C78C1D6133C1D9E00D5C65E /* Five_Specs.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8C78C1D5133C1D9D00D5C65E /* Five_Specs.csv */; };
+		8CFA0935133BC49400064A51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0122551337F286004BA9DB /* UIKit.framework */; };
+		8CFA0936133BC49400064A51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0122571337F286004BA9DB /* Foundation.framework */; };
+		8CFA0937133BC49400064A51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0122591337F286004BA9DB /* CoreGraphics.framework */; };
+		8CFA093D133BC49400064A51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CFA093B133BC49400064A51 /* InfoPlist.strings */; };
+		8CFA0956133BC4E100064A51 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFA0955133BC4E100064A51 /* GHUnitIOS.framework */; };
+		8CFA095B133BC74C00064A51 /* MyTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA095A133BC74C00064A51 /* MyTestCase.m */; };
+		8CFA095C133BC83E00064A51 /* SpecTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0AE6C133AF83300898634 /* SpecTestHelper.m */; };
+		8CFA0962133BD71A00064A51 /* Spectacles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C03EC571339F3F700EA49B1 /* Spectacles.xcdatamodeld */; };
+		8CFA0963133BD78800064A51 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C01225B1337F286004BA9DB /* CoreData.framework */; };
+		8CFA0967133BF03700064A51 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA0966133BF03700064A51 /* GHUnitIOSTestMain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C01004A133A9E4E005BAF3C /* Spectacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spectacle.h; sourceTree = "<group>"; };
+		8C01004B133A9E4E005BAF3C /* Spectacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spectacle.m; sourceTree = "<group>"; };
+		8C0122511337F286004BA9DB /* Spectacles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectacles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0122551337F286004BA9DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C0122571337F286004BA9DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C0122591337F286004BA9DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C01225B1337F286004BA9DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8C01225F1337F286004BA9DB /* Spectacles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spectacles-Info.plist"; sourceTree = "<group>"; };
+		8C0122611337F286004BA9DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C0122631337F286004BA9DB /* Spectacles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spectacles-Prefix.pch"; sourceTree = "<group>"; };
+		8C0122641337F286004BA9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C0122661337F286004BA9DB /* SpectaclesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpectaclesAppDelegate.h; sourceTree = "<group>"; };
+		8C0122671337F286004BA9DB /* SpectaclesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectaclesAppDelegate.m; sourceTree = "<group>"; };
+		8C01226D1337F287004BA9DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8C01226F1337F287004BA9DB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8C0122701337F287004BA9DB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8C0122731337F287004BA9DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		8C0122751337F287004BA9DB /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8C0122761337F287004BA9DB /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8C03EC581339F3F700EA49B1 /* SpectacleModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpectacleModel.xcdatamodel; sourceTree = "<group>"; };
+		8C2A334C133C3E4500459D43 /* Some_Specs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Some_Specs.csv; sourceTree = "<group>"; };
+		8C59A0BF133AAF4000BABB66 /* All_Specs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = All_Specs.csv; sourceTree = "<group>"; };
+		8C78C1C9133C094A00D5C65E /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
+		8C78C1CA133C094A00D5C65E /* NSManagedObjectContext+FetchAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+FetchAdditions.m"; sourceTree = "<group>"; };
+		8C78C1CB133C094A00D5C65E /* NSManagedObjectContext+FetchAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+FetchAdditions.h"; sourceTree = "<group>"; };
+		8C78C1CC133C094A00D5C65E /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		8C78C1D1133C0A0900D5C65E /* EntryReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryReceiver.m; sourceTree = "<group>"; };
+		8C78C1D2133C0A0A00D5C65E /* EntryReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryReceiver.h; sourceTree = "<group>"; };
+		8C78C1D5133C1D9D00D5C65E /* Five_Specs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Five_Specs.csv; sourceTree = "<group>"; };
+		8CE0AE6B133AF83300898634 /* SpecTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecTestHelper.h; sourceTree = "<group>"; };
+		8CE0AE6C133AF83300898634 /* SpecTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecTestHelper.m; sourceTree = "<group>"; };
+		8CFA0933133BC49400064A51 /* SpecTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpecTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFA093A133BC49400064A51 /* SpecTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpecTests-Info.plist"; sourceTree = "<group>"; };
+		8CFA093C133BC49400064A51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CFA093E133BC49400064A51 /* SpecTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpecTests-Prefix.pch"; sourceTree = "<group>"; };
+		8CFA0955133BC4E100064A51 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = SpecTests/GHUnitIOS.framework; sourceTree = "<group>"; };
+		8CFA0959133BC74C00064A51 /* MyTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTestCase.h; sourceTree = "<group>"; };
+		8CFA095A133BC74C00064A51 /* MyTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTestCase.m; sourceTree = "<group>"; };
+		8CFA0966133BF03700064A51 /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIOSTestMain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C01224E1337F286004BA9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0122561337F286004BA9DB /* UIKit.framework in Frameworks */,
+				8C0122581337F286004BA9DB /* Foundation.framework in Frameworks */,
+				8C01225A1337F286004BA9DB /* CoreGraphics.framework in Frameworks */,
+				8C01225C1337F286004BA9DB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFA0930133BC49400064A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFA0956133BC4E100064A51 /* GHUnitIOS.framework in Frameworks */,
+				8CFA0935133BC49400064A51 /* UIKit.framework in Frameworks */,
+				8CFA0936133BC49400064A51 /* Foundation.framework in Frameworks */,
+				8CFA0937133BC49400064A51 /* CoreGraphics.framework in Frameworks */,
+				8CFA0963133BD78800064A51 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C0122461337F286004BA9DB = {
+			isa = PBXGroup;
+			children = (
+				8C01225D1337F286004BA9DB /* Spectacles */,
+				8CFA0938133BC49400064A51 /* SpecTests */,
+				8C0122541337F286004BA9DB /* Frameworks */,
+				8C0122521337F286004BA9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C0122521337F286004BA9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0122511337F286004BA9DB /* Spectacles.app */,
+				8CFA0933133BC49400064A51 /* SpecTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C0122541337F286004BA9DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CFA0955133BC4E100064A51 /* GHUnitIOS.framework */,
+				8C0122551337F286004BA9DB /* UIKit.framework */,
+				8C0122571337F286004BA9DB /* Foundation.framework */,
+				8C0122591337F286004BA9DB /* CoreGraphics.framework */,
+				8C01225B1337F286004BA9DB /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C01225D1337F286004BA9DB /* Spectacles */ = {
+			isa = PBXGroup;
+			children = (
+				8C03EC571339F3F700EA49B1 /* Spectacles.xcdatamodeld */,
+				8C01004A133A9E4E005BAF3C /* Spectacle.h */,
+				8C01004B133A9E4E005BAF3C /* Spectacle.m */,
+				8C0122661337F286004BA9DB /* SpectaclesAppDelegate.h */,
+				8C0122671337F286004BA9DB /* SpectaclesAppDelegate.m */,
+				8C01226C1337F287004BA9DB /* MainWindow.xib */,
+				8C01226F1337F287004BA9DB /* DetailViewController.h */,
+				8C0122701337F287004BA9DB /* DetailViewController.m */,
+				8C0122721337F287004BA9DB /* DetailView.xib */,
+				8C0122751337F287004BA9DB /* RootViewController.h */,
+				8C0122761337F287004BA9DB /* RootViewController.m */,
+				8C78C1C8133C08DF00D5C65E /* Parser */,
+				8C01225E1337F286004BA9DB /* Supporting Files */,
+			);
+			path = Spectacles;
+			sourceTree = "<group>";
+		};
+		8C01225E1337F286004BA9DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C01225F1337F286004BA9DB /* Spectacles-Info.plist */,
+				8C0122601337F286004BA9DB /* InfoPlist.strings */,
+				8C0122631337F286004BA9DB /* Spectacles-Prefix.pch */,
+				8C0122641337F286004BA9DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C78C1C8133C08DF00D5C65E /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				8C78C1D1133C0A0900D5C65E /* EntryReceiver.m */,
+				8C78C1C9133C094A00D5C65E /* CSVParser.m */,
+				8C78C1CA133C094A00D5C65E /* NSManagedObjectContext+FetchAdditions.m */,
+				8C78C1D2133C0A0A00D5C65E /* EntryReceiver.h */,
+				8C78C1CC133C094A00D5C65E /* CSVParser.h */,
+				8C78C1CB133C094A00D5C65E /* NSManagedObjectContext+FetchAdditions.h */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		8CE0AE76133B48A100898634 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				8C59A0BF133AAF4000BABB66 /* All_Specs.csv */,
+				8C78C1D5133C1D9D00D5C65E /* Five_Specs.csv */,
+				8C2A334C133C3E4500459D43 /* Some_Specs.csv */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		8CFA0938133BC49400064A51 /* SpecTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CE0AE6C133AF83300898634 /* SpecTestHelper.m */,
+				8CFA095A133BC74C00064A51 /* MyTestCase.m */,
+				8CE0AE76133B48A100898634 /* Fixtures */,
+				8CFA0939133BC49400064A51 /* Supporting Files */,
+				8CFA0959133BC74C00064A51 /* MyTestCase.h */,
+				8CE0AE6B133AF83300898634 /* SpecTestHelper.h */,
+			);
+			path = SpecTests;
+			sourceTree = "<group>";
+		};
+		8CFA0939133BC49400064A51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CFA0966133BF03700064A51 /* GHUnitIOSTestMain.m */,
+				8CFA093A133BC49400064A51 /* SpecTests-Info.plist */,
+				8CFA093B133BC49400064A51 /* InfoPlist.strings */,
+				8CFA093E133BC49400064A51 /* SpecTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C0122501337F286004BA9DB /* Spectacles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0122911337F287004BA9DB /* Build configuration list for PBXNativeTarget "Spectacles" */;
+			buildPhases = (
+				8C01224D1337F286004BA9DB /* Sources */,
+				8C01224E1337F286004BA9DB /* Frameworks */,
+				8C01224F1337F286004BA9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectacles;
+			productName = Spectacles;
+			productReference = 8C0122511337F286004BA9DB /* Spectacles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CFA0932133BC49400064A51 /* SpecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CFA0954133BC49400064A51 /* Build configuration list for PBXNativeTarget "SpecTests" */;
+			buildPhases = (
+				8CFA092F133BC49400064A51 /* Sources */,
+				8CFA0930133BC49400064A51 /* Frameworks */,
+				8CFA0931133BC49400064A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpecTests;
+			productName = SpecTests;
+			productReference = 8CFA0933133BC49400064A51 /* SpecTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C0122481337F286004BA9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "CodeCafe, LLC";
+			};
+			buildConfigurationList = 8C01224B1337F286004BA9DB /* Build configuration list for PBXProject "Spectacles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C0122461337F286004BA9DB;
+			productRefGroup = 8C0122521337F286004BA9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C0122501337F286004BA9DB /* Spectacles */,
+				8CFA0932133BC49400064A51 /* SpecTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C01224F1337F286004BA9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0122621337F286004BA9DB /* InfoPlist.strings in Resources */,
+				8C01226E1337F287004BA9DB /* MainWindow.xib in Resources */,
+				8C0122741337F287004BA9DB /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFA0931133BC49400064A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFA093D133BC49400064A51 /* InfoPlist.strings in Resources */,
+				8C78C1BF133BFB6600D5C65E /* All_Specs.csv in Resources */,
+				8C78C1D6133C1D9E00D5C65E /* Five_Specs.csv in Resources */,
+				8C2A334E133C41A900459D43 /* Some_Specs.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C01224D1337F286004BA9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0122651337F286004BA9DB /* main.m in Sources */,
+				8C0122681337F286004BA9DB /* SpectaclesAppDelegate.m in Sources */,
+				8C0122711337F287004BA9DB /* DetailViewController.m in Sources */,
+				8C0122771337F287004BA9DB /* RootViewController.m in Sources */,
+				8C03EC591339F3F700EA49B1 /* Spectacles.xcdatamodeld in Sources */,
+				8C01004C133A9E4F005BAF3C /* Spectacle.m in Sources */,
+				8C78C1CD133C094A00D5C65E /* CSVParser.m in Sources */,
+				8C78C1CE133C094A00D5C65E /* NSManagedObjectContext+FetchAdditions.m in Sources */,
+				8C78C1D3133C0A0A00D5C65E /* EntryReceiver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFA092F133BC49400064A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFA0962133BD71A00064A51 /* Spectacles.xcdatamodeld in Sources */,
+				8CFA095B133BC74C00064A51 /* MyTestCase.m in Sources */,
+				8CFA095C133BC83E00064A51 /* SpecTestHelper.m in Sources */,
+				8CFA0967133BF03700064A51 /* GHUnitIOSTestMain.m in Sources */,
+				8C78C1CF133C096900D5C65E /* CSVParser.m in Sources */,
+				8C78C1D0133C096D00D5C65E /* NSManagedObjectContext+FetchAdditions.m in Sources */,
+				8C78C1D4133C0A0A00D5C65E /* EntryReceiver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C0122601337F286004BA9DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0122611337F286004BA9DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C01226C1337F287004BA9DB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C01226D1337F287004BA9DB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8C0122721337F287004BA9DB /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0122731337F287004BA9DB /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+		8CFA093B133BC49400064A51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CFA093C133BC49400064A51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C01228F1337F287004BA9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8C0122901337F287004BA9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8C0122921337F287004BA9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectacles/Spectacles-Prefix.pch";
+				INFOPLIST_FILE = "Spectacles/Spectacles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C0122931337F287004BA9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectacles/Spectacles-Prefix.pch";
+				INFOPLIST_FILE = "Spectacles/Spectacles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8CFA0952133BC49400064A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SpecTests\"",
+					"\"$(SRCROOT)/external-libs/gh-unit/Project-IPhone/build/Framework\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpecTests/SpecTests-Prefix.pch";
+				INFOPLIST_FILE = "SpecTests/SpecTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CFA0953133BC49400064A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SpecTests\"",
+					"\"$(SRCROOT)/external-libs/gh-unit/Project-IPhone/build/Framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpecTests/SpecTests-Prefix.pch";
+				INFOPLIST_FILE = "SpecTests/SpecTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C01224B1337F286004BA9DB /* Build configuration list for PBXProject "Spectacles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C01228F1337F287004BA9DB /* Debug */,
+				8C0122901337F287004BA9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0122911337F287004BA9DB /* Build configuration list for PBXNativeTarget "Spectacles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0122921337F287004BA9DB /* Debug */,
+				8C0122931337F287004BA9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CFA0954133BC49400064A51 /* Build configuration list for PBXNativeTarget "SpecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFA0952133BC49400064A51 /* Debug */,
+				8CFA0953133BC49400064A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C03EC571339F3F700EA49B1 /* Spectacles.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C03EC581339F3F700EA49B1 /* SpectacleModel.xcdatamodel */,
+			);
+			currentVersion = 8C03EC581339F3F700EA49B1 /* SpectacleModel.xcdatamodel */;
+			path = Spectacles.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C0122481337F286004BA9DB /* Project object */;
+}
